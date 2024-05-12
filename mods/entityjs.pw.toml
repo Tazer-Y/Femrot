@@ -1,0 +1,13 @@
+name = "EntityJS"
+filename = "entityjs-0.1.7-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OvPZ16yX/versions/5KREkg0j/entityjs-0.1.7-1.20.1.jar"
+hash-format = "sha1"
+hash = "f803339ed91591581ebcc2a93b9130797a2d4025"
+
+[update]
+[update.modrinth]
+mod-id = "OvPZ16yX"
+version = "5KREkg0j"

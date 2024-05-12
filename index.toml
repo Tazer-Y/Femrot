@@ -1,0 +1,71 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "fa34a3117af7f8ed553ec563a7c90c1d6462184c7df5b837c831cb482c6ae582"
+metafile = true
+
+[[files]]
+file = "mods/configjs.pw.toml"
+hash = "4ad973f8f9dcd3f7fedaa17de8a478381d8170dedf780951714797480c402dca"
+metafile = true
+
+[[files]]
+file = "mods/entityjs.pw.toml"
+hash = "632d70bd10b44def6bd2b9b46cd6fe61cdcfedc7fc69b94a2c8973cd4d22d858"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "32504030cc409f25f4864cb0387b906cd07f1c818301302faddd0de7f777d51c"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "5896fbed8723b44f83a2d81f4fbf9fe3bd601fedc5b20a30550e14a15965e40c"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "37a9b627d18e23f433022804f50e513ef24833807fb4dd2cb79605e343a009ff"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-additions.pw.toml"
+hash = "5601a2d2616a2f02b99f44316e262c1cc3e496e1c4b02e3a4373312f74395a9f"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-offline.pw.toml"
+hash = "55fc662eac51ad0606c3bfda16fd47ca4b3d3c3059c497616bf12dacf3fb7cbd"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "c0f7fea697c69a37393253ce83df26639b6e84c64874d470502869a6b5eaccde"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "67da636765b37f5ff941af776c9e50bfb7441529c2eb07dceef5643af175f281"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "d4fdadce4e7ec2c404eb5ffd2e89b2d557d4f2b616c3f0907c7676ba0ca60928"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "b5667d8296390025430b548d3f6d0d2c727cf2659f7f57f8c2b4e5d3444774f3"
+metafile = true
+
+[[files]]
+file = "mods/probejs.pw.toml"
+hash = "5fb97d7afdc61be2584a9c597dd7f289a48039ef4879457cc7160175a7cf1ddc"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "09e53b8ad971d1c870a94da1a4437335db9307b780073030bd445ee71e8a86f9"
+metafile = true

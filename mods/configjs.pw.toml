@@ -1,0 +1,13 @@
+name = "ConfigJS"
+filename = "configjs-1.0.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hyn6Rt7w/versions/wJ6LwBbm/configjs-1.0.1-1.20.1.jar"
+hash-format = "sha1"
+hash = "9cec0100de9935856845bd60d244df5ab6884cb8"
+
+[update]
+[update.modrinth]
+mod-id = "hyn6Rt7w"
+version = "wJ6LwBbm"

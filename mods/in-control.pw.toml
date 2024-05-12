@@ -1,0 +1,13 @@
+name = "In Control!"
+filename = "incontrol-1.20-9.2.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/KpICtuVx/versions/wQWTgfcL/incontrol-1.20-9.2.5.jar"
+hash-format = "sha1"
+hash = "f042e8db08799f87365a84e5ed3fa33985f92794"
+
+[update]
+[update.modrinth]
+mod-id = "KpICtuVx"
+version = "wQWTgfcL"

@@ -1,0 +1,13 @@
+name = "Femrot"
+author = "Tazer & Rowan"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "565a71edaae45312941dad050b8d59b73c05b6f68baf8e29dc12e987f5877a31"
+
+[versions]
+forge = "47.2.32"
+minecraft = "1.20.1"
