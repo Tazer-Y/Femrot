@@ -1,0 +1,13 @@
+name = "Puzzles Lib"
+filename = "PuzzlesLib-v8.1.19-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QAGBst4M/versions/G9liaLgv/PuzzlesLib-v8.1.19-1.20.1-Forge.jar"
+hash-format = "sha1"
+hash = "0dc0c0a75607da27edbafcce06e0721a473d726e"
+
+[update]
+[update.modrinth]
+mod-id = "QAGBst4M"
+version = "G9liaLgv"

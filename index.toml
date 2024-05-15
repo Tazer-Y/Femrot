@@ -120,6 +120,11 @@ hash = "261c76c6148b071d96bd74a0c6e19705bba7e23af8af5a94d52818f1ad6a03d4"
 metafile = true
 
 [[files]]
+file = "mods/create.pw.toml"
+hash = "c464b21ac8baf5ed1d22a0c4bacfcf24977e04dc938add65a2a93bcaf704c22e"
+metafile = true
+
+[[files]]
 file = "mods/cyanide.pw.toml"
 hash = "2870b6680c61c66504b06e604ec7716e454fb97eaa379408e6a429cc653e017a"
 metafile = true
@@ -127,6 +132,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "7a9742b032332f9f572d5d39c492a4bdfce76bb60ff1ffeb90d804eb6f5ca629"
+metafile = true
+
+[[files]]
+file = "mods/easy-shulker-boxes.pw.toml"
+hash = "21b14c54b6ab889ee048f894ef0de763fbb406fa1c2e11fe178442db70e00813"
 metafile = true
 
 [[files]]
@@ -157,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/entityjs.pw.toml"
 hash = "632d70bd10b44def6bd2b9b46cd6fe61cdcfedc7fc69b94a2c8973cd4d22d858"
+metafile = true
+
+[[files]]
+file = "mods/etcetera.pw.toml"
+hash = "a22c3a4d1bc521994ae3f95ec909bab601bb614e76e2bbe2d8f2a21940d83de5"
 metafile = true
 
 [[files]]
@@ -196,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "9e07097103d19fa6b0454c972857347427f9fef8414a28e8033c27bfa9447fa7"
+hash = "ab6c2176b162ad517d68ddd9bb2c16f3cacc1fae5ad76abd6e62bc2f1d747f4b"
 metafile = true
 
 [[files]]
@@ -230,6 +245,11 @@ hash = "67da636765b37f5ff941af776c9e50bfb7441529c2eb07dceef5643af175f281"
 metafile = true
 
 [[files]]
+file = "mods/lychee.pw.toml"
+hash = "0d21098803be54074c4bb8ab9d8ce7739a5d6ea0ce910bc52331e191ecd225bd"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
@@ -251,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "9e8717b1296920f5949e6e87ed0b57511ac545f1fd129affa95bcab5ccfa8907"
+hash = "b8898534d3d06c490b4663d205fdd979100f3ca4ccd51a09bca374652feda6bf"
 metafile = true
 
 [[files]]
@@ -289,6 +309,11 @@ hash = "5fb97d7afdc61be2584a9c597dd7f289a48039ef4879457cc7160175a7cf1ddc"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "d216f67d3c4a28449084f6f2a79034a7dc62f861fe9fb48583234c21bbc47e68"
+metafile = true
+
+[[files]]
 file = "mods/radium.pw.toml"
 hash = "70153a0d8cc39a3584589a0d66e7746c09acb43497cd0d271b6a69839fedebf3"
 metafile = true
@@ -316,6 +341,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-boot-reloaded.pw.toml"
 hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
+metafile = true
+
+[[files]]
+file = "mods/spelunkery.pw.toml"
+hash = "792d9f06ecd08a3b5fcfab4867a899061df92a4695cc6bea6c4dc4afd960720d"
 metafile = true
 
 [[files]]
