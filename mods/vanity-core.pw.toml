@@ -1,0 +1,13 @@
+name = "Vanity: Core"
+filename = "vanity-forge-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kEcg2xYc/versions/zCvMr2Wo/vanity-forge-2.1.1.jar"
+hash-format = "sha1"
+hash = "22c25ebe91fd544f5d87558c132918bdacd2cfc8"
+
+[update]
+[update.modrinth]
+mod-id = "kEcg2xYc"
+version = "zCvMr2Wo"
