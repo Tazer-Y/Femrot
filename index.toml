@@ -13,6 +13,10 @@ file = "kubejs/assets/femrot/models/item/vanity/bone_pickaxe.json"
 hash = "07afed8ffbb670836593450c02e96d062c792c8d542e83ad6285d5c39fa2db10"
 
 [[files]]
+file = "kubejs/assets/femrot/textures/item"
+hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+
+[[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
 hash = "f85757f80632b73814f83807b36dad9d4991e173649d3f088a455115ca12b2bf"
 
