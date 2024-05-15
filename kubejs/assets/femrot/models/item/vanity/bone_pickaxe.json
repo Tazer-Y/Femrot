@@ -1,0 +1,6 @@
+{
+    "parent": "vanity:item/handheld_item",
+    "textures": {
+        "layer0": "femrot:item/bone_pickaxe"
+    }
+}

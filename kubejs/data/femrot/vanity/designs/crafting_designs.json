@@ -1,0 +1,22 @@
+{
+  "model": "femrot:crafting_designs",
+  "type": "item",
+  "styles": {
+    "antler_pickaxe": [
+      {
+        "item": "minecraft:wooden_pickaxe",
+        "assets": {
+          "default": "femrot:antler_pickaxe"
+        }
+      }
+    ],
+    "bone_pickaxe": [
+      {
+        "item": "minecraft:wooden_pickaxe",
+        "assets": {
+          "default": "femrot:bone_pickaxe"
+        }
+      }
+    ]
+  }
+}
