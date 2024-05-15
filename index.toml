@@ -495,6 +495,11 @@ hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
+file = "mods/miners-delight.pw.toml"
+hash = "413d504f5b032628c7e240d2c669c692685f5707f63eca045f4b27a5ac4e66ce"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "23007c9b06315a062ca923911d9fd89066946f6f52df31c06548fa8bc241b55c"
 metafile = true
