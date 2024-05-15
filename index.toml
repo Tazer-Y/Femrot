@@ -355,6 +355,11 @@ hash = "64be5125bb867f68dec3ca9241395373ea49142b0fc0edf3a39bc12955b76b82"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "ded75a2dd4ee0ea57454d080652099f759ff222a17c6f7daa86df944daf5ad04"
+metafile = true
+
+[[files]]
 file = "mods/clash.pw.toml"
 hash = "434ed9217fd7ea2f70404f8b7d27e6f4da41525c5096f46617f6e659f16df92f"
 metafile = true
@@ -367,6 +372,11 @@ metafile = true
 [[files]]
 file = "mods/configjs.pw.toml"
 hash = "4ad973f8f9dcd3f7fedaa17de8a478381d8170dedf780951714797480c402dca"
+metafile = true
+
+[[files]]
+file = "mods/configurable-falls.pw.toml"
+hash = "261c76c6148b071d96bd74a0c6e19705bba7e23af8af5a94d52818f1ad6a03d4"
 metafile = true
 
 [[files]]
@@ -561,6 +571,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-boot-reloaded.pw.toml"
 hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-valheim-edition.pw.toml"
+hash = "3f1cbf8678ea5cf097b73745c2090719e8f4a33df81f2ac12a3704bf6d25ef5f"
 metafile = true
 
 [[files]]

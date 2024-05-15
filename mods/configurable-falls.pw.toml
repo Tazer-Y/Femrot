@@ -1,0 +1,13 @@
+name = "Configurable Falls"
+filename = "Configurable Falls-forge-1.20.1-V2.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZNhcuAvG/versions/H7O7U7do/Configurable%20Falls-forge-1.20.1-V2.0.2.jar"
+hash-format = "sha1"
+hash = "050e6dbb3f08ffca2067c65ed17fc6351f4a0fd5"
+
+[update]
+[update.modrinth]
+mod-id = "ZNhcuAvG"
+version = "H7O7U7do"
