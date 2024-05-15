@@ -3,7 +3,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.uses = 120
     tier.speed = 2
     tier.attackDamageBonus = 0
-    tier.level = 0
+    tier.level = 1
     tier.enchantmentValue = 1 // TODO: maybe change  this?
     tier.repairIngredient = 'naturalist:antler'
   })
@@ -12,7 +12,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.uses = 120
     tier.speed = 2
     tier.attackDamageBonus = 0
-    tier.level = 0
+    tier.level = 1
     tier.enchantmentValue = 1 // TODO: maybe change  this?
     tier.repairIngredient = 'bone'
   })
@@ -24,6 +24,8 @@ StartupEvents.registry('item', event => {
 
   event.create('mud_ball')
   event.create('mud_brick')
+
+  event.create('unfired_bowl')
 })
 
 StartupEvents.registry('block', event => {
