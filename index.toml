@@ -550,6 +550,11 @@ hash = "f2820df0f5b9cb37572d70be4aa7042ea68f4bc543a36a7342b9d54e9a6d7378"
 metafile = true
 
 [[files]]
+file = "mods/beans-backpacks.pw.toml"
+hash = "5d0fd5e2fc3f1bb9d9515869d1d10c871616ba99c7602f7f522898dbe1206734"
+metafile = true
+
+[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "2bef9c1f47174d832175c2a6c05eb6504e1d37c59ba1cb3287315590532eb574"
 metafile = true
@@ -607,6 +612,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "2a50d21837bba88e3c9490c6bb8e0a9b44b052645d5c1481b48a060439c20a3c"
+metafile = true
+
+[[files]]
+file = "mods/copperative.pw.toml"
+hash = "7f398d34b7aa9bfbf8ffc56df40c06e8b19b19d29d5e828921885462966da64e"
 metafile = true
 
 [[files]]

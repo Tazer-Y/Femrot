@@ -1,0 +1,13 @@
+name = "Copperative"
+filename = "Copperative 1.20.1--1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f9rb8trZ/versions/ydByddwE/Copperative%201.20.1--1.1.0.jar"
+hash-format = "sha1"
+hash = "2210fd0bc4d2659abda1908a54821628b1f7b275"
+
+[update]
+[update.modrinth]
+mod-id = "f9rb8trZ"
+version = "ydByddwE"

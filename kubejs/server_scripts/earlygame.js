@@ -59,12 +59,12 @@ ServerEvents.recipes(event => {
     W: '#wool'
   })
 
-  // event.shaped('beansbackpacks:backpack', ['LCL', 'LHL', 'LIL'], {
-  //   L: 'leather',
-  //   C: 'farmersdelight:canvas',
-  //   H: 'chest',
-  //   I: 'iron_ingot'
-  // })
+  event.shaped('beansbackpacks:backpack', ['LCL', 'LHL', 'LIL'], {
+    L: 'leather',
+    C: 'farmersdelight:canvas',
+    H: 'chest',
+    I: 'iron_ingot'
+  })
 
   event.shaped('farmersdelight:rope', [' S ', ' S ', ' S '], {
     S: 'farmersdelight:straw'

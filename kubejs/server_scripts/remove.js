@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
   // Output removals
   event.remove({
     output: [
-      // 'copperative:copper_nugget',
+      'copperative:copper_nugget',
       // 'create_dd:coal_piece'
     ]
   })
