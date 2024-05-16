@@ -1,0 +1,14 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "grass_block"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "dirt_path"
+        }
+    ]
+}

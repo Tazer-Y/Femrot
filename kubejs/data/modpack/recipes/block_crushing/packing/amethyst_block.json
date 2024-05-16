@@ -1,0 +1,23 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "amethyst_shard"
+        },
+        {
+            "item": "amethyst_shard"
+        },
+        {
+            "item": "amethyst_shard"
+        },
+        {
+            "item": "amethyst_shard"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "amethyst_block"
+        }
+    ]
+}

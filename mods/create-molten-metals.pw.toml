@@ -1,0 +1,13 @@
+name = "Create: Molten Metals"
+filename = "molten_metals-1.20.1-0.1.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5ZuwMbpk/versions/jZZI45LP/molten_metals-1.20.1-0.1.2-forge.jar"
+hash-format = "sha1"
+hash = "306d38cfd5001f690a7e757c61197b735a61266c"
+
+[update]
+[update.modrinth]
+mod-id = "5ZuwMbpk"
+version = "jZZI45LP"

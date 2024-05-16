@@ -1,0 +1,27 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "arrow"
+  },
+  "block_in": "kubejs:blank_table",
+  "post": [
+    {
+      "type": "place",
+      "block": "fletching_table"
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.wood.place block @p ~ ~ ~ 1 0.8",
+      "hide": true
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.wood.break block @p ~ ~ ~ 1 0.8",
+      "hide": true
+    },
+    {
+      "type": "execute",
+      "command": "particle block fletching_table ~ ~ ~ 0 0 0 0 20"
+    }
+  ]
+}

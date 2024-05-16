@@ -1,0 +1,38 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        },
+        {
+            "item": "ice"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "packed_ice"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "farmersdelight:canvas"
+  },
+  "block_in": "kubejs:blank_table",
+  "post": [
+    {
+      "type": "place",
+      "block": "crafting_table"
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.wood.place block @p ~ ~ ~ 1 0.8",
+      "hide": true
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.wood.break block @p ~ ~ ~ 1 0.8",
+      "hide": true
+    },
+    {
+      "type": "execute",
+      "command": "particle block crafting_table ~ ~ ~ 0 0 0 0 20"
+    }
+  ]
+}

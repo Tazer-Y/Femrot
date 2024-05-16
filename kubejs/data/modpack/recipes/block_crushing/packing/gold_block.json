@@ -1,0 +1,38 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        },
+        {
+            "item": "gold_ingot"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "gold_block"
+        }
+    ]
+}
