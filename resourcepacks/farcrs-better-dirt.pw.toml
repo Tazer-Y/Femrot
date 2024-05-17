@@ -1,0 +1,13 @@
+name = "Farcr's Better Dirt"
+filename = "Farcr's Better Dirt V1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5xAL8fnK/versions/4WtJklkf/Farcr%27s%20Better%20Dirt%20V1.2.zip"
+hash-format = "sha1"
+hash = "ca24365cb19f654c7c81fc089de600dfeedd75de"
+
+[update]
+[update.modrinth]
+mod-id = "5xAL8fnK"
+version = "4WtJklkf"
