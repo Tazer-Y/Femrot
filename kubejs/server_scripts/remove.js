@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
   // Output removals
   event.remove({
     output: [
-      'copperative:copper_nugget',
+      'copperative:copper_nugget'
       // 'create_dd:coal_piece'
     ]
   })
@@ -183,11 +183,11 @@ ServerEvents.recipes(event => {
     'etcetera:bismuth_ingot',
     'etcetera:dice',
 
-    'supplementaries:rope_arrow'
+    'supplementaries:rope_arrow',
 
-    // 'beansbackpacks:metal_backpack',
-    // 'beansbackpacks:winged_backpack',
-    // 'beansbackpacks:ender_backpack',
+    'beansbackpacks:metal_backpack',
+    'beansbackpacks:winged_backpack',
+    'beansbackpacks:ender_backpack'
 
     // 'create_dd:mithril_ingot',
     // 'create_dd:mithril_sheet',

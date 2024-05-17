@@ -1,9 +1,11 @@
 ServerEvents.recipes(event => {
   let wrenching = (output, metal) => {
-    event.shaped(output, ['II ', 'IS ', ' S '], {
-      S: 'stick',
-      I: `create:${metal}_sheet`
-    }).id(`create/${metal}_wrench`)
+    event
+      .shaped(output, ['II ', 'IS ', ' S '], {
+        S: 'stick',
+        I: `create:${metal}_sheet`
+      })
+      .id(`create/${metal}_wrench`)
   }
   wrenching('create:wrench', 'golden')
   wrenching('supplementaries:wrench', 'copper')

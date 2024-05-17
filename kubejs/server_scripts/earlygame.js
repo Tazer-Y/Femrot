@@ -1,9 +1,11 @@
 ServerEvents.recipes(event => {
-  event.shaped('stone_axe', ['PS ', 'SB '], {
-    S: 'stick',
-    B: '#c:binding_materials',
-    P: 'nomansland:pebbles'
-  }).id('stone_axe')
+  event
+    .shaped('stone_axe', ['PS ', 'SB '], {
+      S: 'stick',
+      B: '#c:binding_materials',
+      P: 'nomansland:pebbles'
+    })
+    .id('stone_axe')
 
   event.shaped('clash:spear', [' BF', ' SB', 'S  '], {
     B: '#c:binding_materials',
@@ -23,16 +25,22 @@ ServerEvents.recipes(event => {
     S: 'stick'
   })
 
-  event.replaceInput({id: 'minecraft:campfire'}, '#coals', 'farmersdelight:straw')
+  event.replaceInput(
+    { id: 'minecraft:campfire' },
+    '#coals',
+    'farmersdelight:straw'
+  )
 
   event.campfireCooking('charcoal', '#logs').id('charcoal')
 
-  event.shaped('furnace', ['MMM', 'BCB', 'SSS'], {
-    M: 'kubejs:mud_brick',
-    B: 'mud_bricks',
-    S: '#c:stones',
-    C: '#coals'
-  }).id('furnace')
+  event
+    .shaped('furnace', ['MMM', 'BCB', 'SSS'], {
+      M: 'kubejs:mud_brick',
+      B: 'mud_bricks',
+      S: '#c:stones',
+      C: '#coals'
+    })
+    .id('furnace')
 
   event.replaceInput(
     { id: 'supplementaries:sack' },
@@ -49,22 +57,32 @@ ServerEvents.recipes(event => {
     C: '#coals',
     S: 'stick'
   })
-  event.shaped('torch', [' C ', ' S '], {
-    C: '#c:coal_lumps',
-    S: 'stick'
-  }).id('torch')
+  event
+    .shaped('torch', [' C ', ' S '], {
+      C: '#c:coal_lumps',
+      S: 'stick'
+    })
+    .id('torch')
 
   event.shaped('sleep_tight:night_bag', ['SS ', 'WW ', 'WW '], {
     S: 'string',
     W: '#wool'
   })
 
-  event.shaped('beansbackpacks:backpack', ['LCL', 'LHL', 'LIL'], {
-    L: 'leather',
-    C: 'farmersdelight:canvas',
-    H: 'chest',
-    I: 'iron_ingot'
-  })
+  event
+    .shaped(
+      Item.of('beansbackpacks:backpack').withNBT({
+        display: { key: 'leather' }
+      }),
+      ['LCL', 'LHL', 'LIL'],
+      {
+        L: 'leather',
+        C: 'farmersdelight:canvas',
+        H: 'chest',
+        I: 'iron_ingot'
+      }
+    )
+    .id('beansbackpacks:leather_backpack')
 
   event.shaped('farmersdelight:rope', [' S ', ' S ', ' S '], {
     S: 'farmersdelight:straw'
@@ -124,16 +142,15 @@ ServerEvents.recipes(event => {
     B: 'brick'
   })
 
+  //   event.shaped(Item.of('wooden_pickaxe').withNBT({Design: {Style:"antler_pickaxe", Id:"femrot:crafting_designs"}, display:{Name:'{"text":"Antler Pickaxe","italic":"false"}'}}), ['ABA', ' S ', ' S '], {
+  //     A: 'naturalist:antler',
+  //     B: '#c:binding_materials',
+  //     S: 'stick'
+  //   })
 
-//   event.shaped(Item.of('wooden_pickaxe').withNBT({Design: {Style:"antler_pickaxe", Id:"femrot:crafting_designs"}, display:{Name:'{"text":"Antler Pickaxe","italic":"false"}'}}), ['ABA', ' S ', ' S '], {
-//     A: 'naturalist:antler',
-//     B: '#c:binding_materials',
-//     S: 'stick'
-//   })
-
-//   event.shaped(Item.of('wooden_pickaxe').withNBT({Design: {Style:"bone_pickaxe", Id:"femrot:crafting_designs"}, display:{Name:'{"text":"Bone Pickaxe","italic":"false"}'}}), ['ABA', ' S ', ' S '], {
-//     A: 'bone',
-//     B: '#c:binding_materials',
-//     S: 'stick'
-//   })
+  //   event.shaped(Item.of('wooden_pickaxe').withNBT({Design: {Style:"bone_pickaxe", Id:"femrot:crafting_designs"}, display:{Name:'{"text":"Bone Pickaxe","italic":"false"}'}}), ['ABA', ' S ', ' S '], {
+  //     A: 'bone',
+  //     B: '#c:binding_materials',
+  //     S: 'stick'
+  //   })
 })
