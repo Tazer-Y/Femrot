@@ -1,33 +1,39 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   // Mud Bricks
-  event.campfireCooking('kubejs:mud_brick', 'kubejs:mud_ball')
+  event.campfireCooking("kubejs:mud_brick", "kubejs:mud_ball");
 
   event
-    .shaped('mud_bricks', ['XX', 'XX'], {
-      X: 'kubejs:mud_brick'
+    .shaped("mud_bricks", ["XX", "XX"], {
+      X: "kubejs:mud_brick",
     })
-    .id('mud_bricks')
+    .id("mud_bricks");
 
   event
-    .stonecutting('nomansland:cobblestone_bricks', 'cobblestone')
-    .id('nomansland:building/cobblestone_bricks')
+    .stonecutting("nomansland:cobblestone_bricks", "cobblestone")
+    .id("nomansland:building/cobblestone_bricks");
   event
-    .stonecutting('nomansland:mossy_cobblestone_bricks', 'mossy_cobblestone')
-    .id('nomansland:building/mossy_cobblestone_bricks')
+    .stonecutting("nomansland:mossy_cobblestone_bricks", "mossy_cobblestone")
+    .id("nomansland:building/mossy_cobblestone_bricks");
 
   event
-    .stonecutting('stone_bricks', 'nomansland:polished_stone')
-    .id('bricks/stone_bricks_from_polished_stone')
+    .stonecutting("stone_bricks", "nomansland:polished_stone")
+    .id("bricks/stone_bricks_from_polished_stone");
 
   event
-    .stonecutting('nomansland:faded_stone_bricks', 'stone')
-    .id('bricks/faded_stone_bricks_from_stone')
+    .stonecutting("nomansland:faded_stone_bricks", "stone")
+    .id("bricks/faded_stone_bricks_from_stone");
   event
-    .stonecutting('nomansland:faded_stone_bricks', 'nomansland:polished_stone')
-    .id('bricks/faded_stone_bricks_from_polished_stone')
+    .stonecutting("nomansland:faded_stone_bricks", "nomansland:polished_stone")
+    .id("bricks/faded_stone_bricks_from_polished_stone");
   event
-    .stonecutting('nomansland:faded_stone_bricks', 'stone_bricks')
-    .id('bricks/faded_stone_bricks_from_stone_bricks')
+    .stonecutting("nomansland:faded_stone_bricks", "stone_bricks")
+    .id("bricks/faded_stone_bricks_from_stone_bricks");
+
+  event.replaceInput(
+    { id: "nomansland:building/mossy_cobblestone_bricks_from_moss_block" },
+    "moss_block",
+    "#forge:moss"
+  );
 
   // Prismarine Bricks - unsure what to do on this one - does prismarine still exist
-})
+});
