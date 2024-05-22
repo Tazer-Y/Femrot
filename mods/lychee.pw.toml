@@ -1,13 +1,13 @@
 name = "Lychee"
-filename = "Lychee-1.20.1-forge-5.1.13.jar"
+filename = "Lychee-1.20.1-forge-5.1.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TdN6LxjM/versions/SYNgOSGY/Lychee-1.20.1-forge-5.1.13.jar"
+url = "https://cdn.modrinth.com/data/TdN6LxjM/versions/T6FCGd6s/Lychee-1.20.1-forge-5.1.14.jar"
 hash-format = "sha1"
-hash = "ce9592993a0b00627e8dd329a3d1f1914813cb64"
+hash = "a36feb9d4ae4b3795c62b27eb6c443ab199e01a0"
 
 [update]
 [update.modrinth]
 mod-id = "TdN6LxjM"
-version = "SYNgOSGY"
+version = "T6FCGd6s"
