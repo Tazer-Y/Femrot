@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".vscode/settings.json"
+hash = "40c53070d3a5bd11542295b107c1e3eea65ae2c952b15963b8450806c7aa8620"
+
+[[files]]
 file = "config/sleep_tight-common.toml"
 hash = "624e6376dfaeca766fe799470019d45585c0a9d9ffdee1f12170e476f8eb0f2c"
 
@@ -9,8 +13,8 @@ file = "config/supplementaries-common.toml"
 hash = "3fa2b009dc26218982f131c9069f9e64716a7b38d0140520e44900aa7d49bab6"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+file = "defaultconfigs/hourglass-server.toml"
+hash = "57ba5c72f722b2b0b8050b0de024a6a7d65403cdda3881d3f6766e5f50342a27"
 
 [[files]]
 file = "kubejs/assets/clash/lang/en_us.json"
@@ -38,7 +42,7 @@ hash = "cd57ebfc235ef20f3c7119fe4a048845f05addeef7705cc73f7549ee8a8876bb"
 
 [[files]]
 file = "kubejs/client_scripts/remove.js"
-hash = "c541abc0beaebe00e0b65b33d336668fc30e7b9527100f825e38c7b5a4b87b2e"
+hash = "799c3abe6db4bf938a429f410ca6b9d084183d065eb2a301aca07a506335e7e3"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -226,31 +230,31 @@ hash = "3553e9cf1ad314210b79e58606fcf3edc388393a695d9cf2b2e6a9e322326172"
 
 [[files]]
 file = "kubejs/jsconfig.json"
-hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
+hash = "d43f410c54b177b6ca5f7b3c00505847ce06d5bbb357ccd3125fe6d918c4f430"
 
 [[files]]
 file = "kubejs/server_scripts/bricks.js"
-hash = "1a66a55e28ad77708b02db640475df78ef137fbd34f7fce55fb7c906b14e1bdc"
+hash = "c16739c9f9f8d28e9cc8d65132ab35a9fb7afe1e4142acb1f271a3e8f6606740"
 
 [[files]]
 file = "kubejs/server_scripts/casings.js"
-hash = "a39fbcb4d9e933dd70695067261db7e03cfcba1e3ff9a4face06c285fe12a35a"
+hash = "9b328509d0510fcbb7ae99b8d93cfc09b8ddb95e10ae303ee629dba469e8c4eb"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "67b6bb2ebdab5fcaf47f1e71df9ffaee9de51eb5dd962356bfb0d81aa36eb698"
+hash = "a0af1c33c181c04360a9a09e8a35961ffd54befcf04d4a6a817e9edda43b962d"
 
 [[files]]
 file = "kubejs/server_scripts/data.js"
-hash = "59e9699bda6cc479c03a9ba2155351171f47016069322f4f757feadd524fabe5"
+hash = "520c721c044ae858b76dc4919fee4c29f843e361eaa82d45705ec85db6fa0012"
 
 [[files]]
 file = "kubejs/server_scripts/earlygame.js"
-hash = "03c28da700e6bfab7d720f341cac8a0c499b3b31bff0510a7f91322fadd28794"
+hash = "d926767d30df8ebced9f9c29121ff2c173cbc0f1eadbd30e118460bedb7a8b5c"
 
 [[files]]
 file = "kubejs/server_scripts/food.js"
-hash = "912c9a160b15d92c00372ea94ca60ea131abc5ab3522812ac1fca0fcd5d9f8a9"
+hash = "2f4d825e4eba611b44c0465bbbd3a8ec08df2beda2e2ce763941852c6454ed6d"
 
 [[files]]
 file = "kubejs/server_scripts/mold_cooling.js"
@@ -258,19 +262,19 @@ hash = "ee7e9f50aa55c65d08de3ac2b03511b5dc61900ad88d1c4e42a4d9e7e42b4bef"
 
 [[files]]
 file = "kubejs/server_scripts/oxidizing.js"
-hash = "a526ede2113ef73bc3cff997feb13011b8cbc2e79870a8e386f5453f49eac5a2"
+hash = "597fd812a8cd1b847017c28be0d26f348bf137e2228d17258adedd3c861be511"
 
 [[files]]
 file = "kubejs/server_scripts/remove.js"
-hash = "48fcb470bb32c8eac87b4c23fed4d8b1c447786254c5448e59d295ed4c642c9c"
+hash = "72b4cf2ccc638b3c31bdf5250bea3aed6e81ff72d11740051c09ad81e37b3e39"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "6b3c2d39c9a6fb46ba9c122f7e83d83c750dad1beba290ee7621635361795fda"
+hash = "d5e84b05f6ae7db36d6c284fddc3a1927aae25e7d71517f7f949053805a4a39d"
 
 [[files]]
 file = "kubejs/startup_scripts/registry.js"
-hash = "21227f647f34bd079da15741a319b236e4a7b713e513b23d6f6784c4966212c6"
+hash = "109a87c93ec2552e90d779f77c1f4d5001f6520fc9df55d11d13f2dc817cc57c"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -294,7 +298,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "98b46f9d156819ceaa2ff8ea5b31de34b9b53d03db7a7bc2c32b587e38f8c0ff"
+hash = "fb72e8b371be37587b541f8442f6ad79a9873196a9d5a10a5f971258b9228a4e"
 metafile = true
 
 [[files]]
@@ -310,11 +314,6 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "fa34a3117af7f8ed553ec563a7c90c1d6462184c7df5b837c831cb482c6ae582"
-metafile = true
-
-[[files]]
-file = "mods/axiom.pw.toml"
-hash = "f2820df0f5b9cb37572d70be4aa7042ea68f4bc543a36a7342b9d54e9a6d7378"
 metafile = true
 
 [[files]]
@@ -344,7 +343,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "ccf64fb48d2f79d74e6a9b29bb81f48cd7724e2a1ff785ccb771dd1ee4a5fee4"
+hash = "f78be3b67e136fd638be0785738e7cf5f67ee1264b914d452c1e5cc3c86cf799"
 metafile = true
 
 [[files]]
@@ -370,11 +369,6 @@ metafile = true
 [[files]]
 file = "mods/configurable-falls.pw.toml"
 hash = "261c76c6148b071d96bd74a0c6e19705bba7e23af8af5a94d52818f1ad6a03d4"
-metafile = true
-
-[[files]]
-file = "mods/connector.pw.toml"
-hash = "96a8cf1770ddf7b31e960c86118eb531eb3c2d25258aa3dd34cbd929e98ec08a"
 metafile = true
 
 [[files]]
@@ -409,7 +403,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-train-perspective.pw.toml"
-hash = "30da3c60f491e0322ea4007443c9259735788562cbe8144d829695e1e7ca4b2f"
+hash = "b95b4a12c0712cf8b833e49fe07259a070f8186654033b374c2f2315f2f76735"
 metafile = true
 
 [[files]]
@@ -434,7 +428,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "610c7ff4d8255c86b4262c42e6a9dd027ae08e9a15f54fe12b0d2d3fc400a5be"
+hash = "5d689fdd1fe74d0fbbe67af6ae186a49ac3efeb1d00341a8c7c6ab663829b5fd"
 metafile = true
 
 [[files]]
@@ -464,7 +458,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityjs.pw.toml"
-hash = "632d70bd10b44def6bd2b9b46cd6fe61cdcfedc7fc69b94a2c8973cd4d22d858"
+hash = "15fb075a1140f2335da480ac7761908898d869bde3a0bf29b70c51bf65ea6782"
 metafile = true
 
 [[files]]
@@ -503,11 +497,6 @@ hash = "b31deb48d2140594addc96b1dcd18fea01509d5ce9581290b9dee40627696426"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "e2a58307f0e7a89bb905f894c235fcd275bd500d885424a9f796df44e27d985f"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5896fbed8723b44f83a2d81f4fbf9fe3bd601fedc5b20a30550e14a15965e40c"
 metafile = true
@@ -520,6 +509,11 @@ metafile = true
 [[files]]
 file = "mods/highlight.pw.toml"
 hash = "ee8e026f46f06f68fa61abfd0e50b195c3348c8ecbbcac8eeb8fc7a05c1219ba"
+metafile = true
+
+[[files]]
+file = "mods/hourglass.pw.toml"
+hash = "f7111a197c3e4748c1c35283b10605503025c8c57f1410da5d5442c63c7ba410"
 metafile = true
 
 [[files]]
@@ -559,12 +553,12 @@ metafile = true
 
 [[files]]
 file = "mods/ksyxis.pw.toml"
-hash = "2fa3ea42c8afb4a8959b689d099d6b9ecf55a5b0f17d350d6d00d33d83053b32"
+hash = "27ce4d9c90e9f161713a51dda83cde8e021701a2944e18d5661271d791a33754"
 metafile = true
 
 [[files]]
 file = "mods/kubejs-additions.pw.toml"
-hash = "5601a2d2616a2f02b99f44316e262c1cc3e496e1c4b02e3a4373312f74395a9f"
+hash = "2246b7c98be2316617d8ab39fce1a42e5d21f456c56ef5c5986d4e00c65ef32f"
 metafile = true
 
 [[files]]
@@ -594,7 +588,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "0d21098803be54074c4bb8ab9d8ce7739a5d6ea0ce910bc52331e191ecd225bd"
+hash = "a074eeef4df12d0d5e74292bb777b058564e3239fb5bf69e0b4478e7049fea5a"
 metafile = true
 
 [[files]]
@@ -624,7 +618,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d58b07f4e0f2f9d63f81e9615775870032cf2248ec42b7267dbd5bd956c8c660"
+hash = "078a2b5eb7a4713f37930ad4cb33c587d2d43151295fa5617845624fe1a6ce67"
 metafile = true
 
 [[files]]
