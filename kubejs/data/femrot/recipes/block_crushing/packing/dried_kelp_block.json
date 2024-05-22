@@ -1,0 +1,38 @@
+{
+  "type": "lychee:block_crushing",
+  "item_in": [
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    },
+    {
+      "item": "dried_kelp"
+    }
+  ],
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "dried_kelp_block"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "No Gui FD"
+filename = "NGFD-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VgkJBcqR/versions/3y24LewM/NGFD-1.20.1-1.0.2.jar"
+hash-format = "sha1"
+hash = "081b12f19f525e0baa9d21004d9b2635f7789555"
+
+[update]
+[update.modrinth]
+mod-id = "VgkJBcqR"
+version = "3y24LewM"

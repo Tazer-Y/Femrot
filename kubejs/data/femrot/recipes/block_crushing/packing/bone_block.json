@@ -1,0 +1,38 @@
+{
+  "type": "lychee:block_crushing",
+  "item_in": [
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    },
+    {
+      "item": "bone_meal"
+    }
+  ],
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "bone_block"
+    }
+  ]
+}
