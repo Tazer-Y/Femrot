@@ -1,0 +1,14 @@
+{
+  "type": "lychee:block_crushing",
+  "item_in": [
+    {
+      "item": "mycelium"
+    }
+  ],
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "nomansland:mycelium_path"
+    }
+  ]
+}

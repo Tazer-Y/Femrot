@@ -1,0 +1,14 @@
+{
+  "type": "lychee:block_crushing",
+  "item_in": [
+    {
+      "item": "podzol"
+    }
+  ],
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "nomansland:podzol_path"
+    }
+  ]
+}
