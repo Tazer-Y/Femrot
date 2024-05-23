@@ -1,0 +1,13 @@
+name = "Herd Mentality"
+filename = "HerdMentality-Forge-1.20.1-12.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zOBrENMH/versions/RIi6HJO2/HerdMentality-Forge-1.20.1-12.0.3.jar"
+hash-format = "sha1"
+hash = "212a2e7604a5c36b4d9a8411ba91a76ca21be897"
+
+[update]
+[update.modrinth]
+mod-id = "zOBrENMH"
+version = "RIi6HJO2"

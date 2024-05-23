@@ -85,7 +85,7 @@
 		#Turn off to prevent faucets from dropping items
 		spill_items = true
 		#Allows faucets to fill entities inventories
-		fill_entities_below = false
+		fill_entities_below = true
 
 	[redstone.crystal_display]
 		enabled = true
@@ -115,11 +115,11 @@
 		capacity = 12
 		#Allow right click to instantly eat or drink food or potions inside a placed jar.
 		#Disable if you think this ability is op (honey for example). Cookies are excluded
-		drink_from_jar = false
+		drink_from_jar = true
 		#Allows the player to directly drink from jar items
 		drink_from_jar_item = false
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
-		jar_auto_detect = false
+		jar_auto_detect = true
 		#Allow Jars to capture small mobs
 		jar_capture = true
 		#Allow Jars to hold cookies
@@ -134,7 +134,7 @@
 		#Allows all baby mobs to be captured by cages
 		cage_allow_all_babies = false
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
 		persistent_mobs = false
 		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
@@ -164,7 +164,7 @@
 		enabled = true
 		tipped_spikes = true
 		#Allows entities killed by spikes to drop loot as if they were killed by a player
-		player_loot = false
+		player_loot = true
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
 		#Populate the creative inventory with all tipped spikes variations
@@ -184,10 +184,10 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
-			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 			"minecraft:sticky_piston" = "minecraft:piston"
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 			"quark:dirty_glass" = "minecraft:glass"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 
 	[functional.present]
 		enabled = true
@@ -208,8 +208,8 @@
 	sconce = true
 	sconce_lever = true
 	pancake = true
-	netherite_door = false
-	netherite_trapdoor = false
+	netherite_door = true
+	netherite_trapdoor = true
 	checker_block = true
 	raked_gravel = true
 	feather_block = true
@@ -230,7 +230,7 @@
 	[building.timber_frame]
 		enabled = true
 		#Allow placing a timber frame directly on a block by holding shift
-		swap_on_shift = false
+		swap_on_shift = true
 		#Allows axes to remove a framed block leaving the contained block intact
 		axes_strip = true
 		#Replace a timber frame with wattle and daub block when daub is placed in it
@@ -241,7 +241,7 @@
 		#Allows two iron gates to be opened simultaneously when on top of the other
 		double_opening = true
 		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
-		door-like_gates = false
+		door-like_gates = true
 
 	[building.item_shelf]
 		enabled = true
@@ -326,7 +326,7 @@
 [tools]
 	candy = true
 	stasis = true
-	altimeter = true
+	altimeter = false
 
 	[tools.quiver]
 		enabled = true
@@ -421,15 +421,15 @@
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
 		#Allows splash potions to be thrown by slingshots
-		allow_splash_potions = false
+		allow_splash_potions = true
 		#Allows bombs to be thrown by slingshots
-		allow_bombs = false
+		allow_bombs = true
 		#Allows fire charges to be thrown by slingshots
-		allow_fire_charges = false
+		allow_fire_charges = true
 		#Allows snowballs to be thrown by slingshots
-		allow_snowballs = false
+		allow_snowballs = true
 		#Allows enderpearls to be thrown by slingshots
-		allow_enderpearls = false
+		allow_enderpearls = true
 
 	[tools.antique_ink]
 		enabled = true
@@ -536,7 +536,7 @@
 		#Range: 0.0 ~ 5.0
 		enchanted_book_power = 1.334
 		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
+		mixed_books = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse

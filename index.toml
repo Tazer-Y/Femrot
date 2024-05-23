@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".vscode/settings.json"
-hash = "40c53070d3a5bd11542295b107c1e3eea65ae2c952b15963b8450806c7aa8620"
+file = "config/configurable_falls-common.toml"
+hash = "7917e14829e4e02e4fc70237814e8891ccc4cd0717b5b02235d0cba93804c7b7"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "ee828eeee80e289d7237905943555306798f15e1772d9c516f89dfaf0b6094b2"
+
+[[files]]
+file = "config/notenoughanimations.json"
+hash = "4664596a5ec1feb77d7542d0dc54ba72f424951484c28139214ff0fe6f95fb3d"
 
 [[files]]
 file = "config/sleep_tight-common.toml"
@@ -10,11 +18,23 @@ hash = "624e6376dfaeca766fe799470019d45585c0a9d9ffdee1f12170e476f8eb0f2c"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "3fa2b009dc26218982f131c9069f9e64716a7b38d0140520e44900aa7d49bab6"
+hash = "55fb9d979b6619b4450a35d562ebd12c80663571c6be8c0a5a0e3315c80e6fc7"
+
+[[files]]
+file = "config/tips.json"
+hash = "fc484eee7e0610bf93331b612d31229de0dc80533d42b1ebcd99366a782b3799"
+
+[[files]]
+file = "defaultconfigs/create-server.toml"
+hash = "e4b26488495b70d177b478cfb2b621245702073530e9a3f7b2b3a0159ec69530"
 
 [[files]]
 file = "defaultconfigs/hourglass-server.toml"
-hash = "57ba5c72f722b2b0b8050b0de024a6a7d65403cdda3881d3f6766e5f50342a27"
+hash = "79789a226747f9df3131155a214873f78095c3750bf4c36fcabb9826bfe39b78"
+
+[[files]]
+file = "defaultconfigs/unlitcampfire-server.toml"
+hash = "246d142a78da4827b3112274624ad1869be4edc360484bdb491d131c00247df5"
 
 [[files]]
 file = "kubejs/assets/clash/lang/en_us.json"
@@ -25,6 +45,10 @@ file = "kubejs/assets/create/lang/en_us.json"
 hash = "3c8536c77f9fa86f6b64e0884a657f09b1254070a445e1849249c0390558c650"
 
 [[files]]
+file = "kubejs/assets/etcetera/lang/en_us.json"
+hash = "abd5dc48796c0a62c7b0fcdfbe64b8f8ebfc3a996a4a79b6604df90fb82d07c4"
+
+[[files]]
 file = "kubejs/assets/femrot/models/item/vanity/antler_pickaxe.json"
 hash = "97f43abd9010ec23f331bf5c96941cc870be07a69c8e075f31fa882a0e3a6a48"
 
@@ -33,8 +57,68 @@ file = "kubejs/assets/femrot/models/item/vanity/bone_pickaxe.json"
 hash = "07afed8ffbb670836593450c02e96d062c792c8d542e83ad6285d5c39fa2db10"
 
 [[files]]
+file = "kubejs/assets/femrot/tips/armor_styling.json"
+hash = "a92e9fb07cc1ae5a72e828ff254a58052c4818890c6745bb9be7f0eadc30872d"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/backpack.json"
+hash = "dde7dd03d9e8ae1c1d75f39e9b686beca82b248ebf0a474f41d3c2b0e195ff79"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/bundle.json"
+hash = "396ac2ef1e727e58507e33cd490c8266055f756fa42add256f4cc1f2be8b4b94"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/compass.json"
+hash = "31366aa9df15b0f4a388a34274f80a3cc268d53a37c921d79ca2d73b6a7edb89"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/coordinates.json"
+hash = "ada423838e8a080b7aa6da8743f5d6c173e57c75c7967fb4b9ee2e2a59c380ba"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/copper_components.json"
+hash = "aa6ee72b115d8e889561a2472dc16c2933c2356babd600513054e6f38705bea7"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/corpse.json"
+hash = "616cca0be12395d7897e8ffb9b0d4bc914173c22a06c50e84a6923c1c3722d85"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/depth_gauge.json"
+hash = "5012fbf4754967d162ecf482d7f2dc75690a89a30e70a497c335186a90e802ab"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/fragile_glass.json"
+hash = "bb3d07b98fdb6a025c4ea6e26901e75f1acfe5d3950d76b7c5add4cbcc6d7037"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/monobank.json"
+hash = "9fdcbf83589fa3bff57d5640286b996221ae1d170fa648652ce9729343ae2cf3"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/nightbag.json"
+hash = "4f5a6eea7b6d7dd3ba92566cfe2837053b9c1b833a5321748850209859b7f701"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/sack_cutting.json"
+hash = "f0521a9be4c36d1ad6d526381e318df4cb70b9c5fa0ab5e624224175c49d33c5"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/tool_designs.json"
+hash = "b9113c7f64a39874eba5f84849fe064317119bfdf16e891343c842447ea6360f"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/water.json"
+hash = "c35128741d633004d15327467924174097e83fd2808616f3bfcef5e98c97e9fe"
+
+[[files]]
+file = "kubejs/assets/femrot/tips/wrenches.json"
+hash = "e8afe0a071942739be7ea07667c24d4179e668884d6b397a0d860a7232b3f2ac"
+
+[[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "1135b086f827a414a0354d2e70fd60529efa3e9441b5f339634e814161e2bd17"
+hash = "6749238affc102295eda3256b7585533ea992adfd68a64eba21e19912e6e4c98"
 
 [[files]]
 file = "kubejs/assets/supplementaries/lang/en_us.json"
@@ -58,15 +142,15 @@ hash = "d164a6e8badb760d2e770fe07192b800c2e07fbf2558067ed95aa741a43f1811"
 
 [[files]]
 file = "kubejs/data/femrot/recipes/block_crushing/mossy_conversion/cobblestone.json"
-hash = "d244b7d1a8d127dd3c290100143728a726ef578dda6e1696d41abcb4e5b03c36"
+hash = "4c2460a4fc3fe0e3f372ba45029bea37a77851140614ad91f1115005ff93a3d0"
 
 [[files]]
 file = "kubejs/data/femrot/recipes/block_crushing/mossy_conversion/cobblestone_bricks.json"
-hash = "4a09b1002ea7c19d740ef5c0c2bfebe921c2f5c175b138c6894829ed1ce8381a"
+hash = "c0ca553a51b9468929fd0b88a732eb3aecbb4c2bea87d94dcfba0766def14bb6"
 
 [[files]]
 file = "kubejs/data/femrot/recipes/block_crushing/mossy_conversion/stone_bricks.json"
-hash = "b8ca1149edf3ccf37b4ed335534ce6e1174cc455b47e36d7a2e6fc5cbe1a6343"
+hash = "c24d8fd6976236c84c31613b8426bb137182b40e29f8087a8a3355256212318a"
 
 [[files]]
 file = "kubejs/data/femrot/recipes/block_crushing/packing/amethyst_block.json"
@@ -101,8 +185,24 @@ file = "kubejs/data/femrot/recipes/block_crushing/pressing/grass_path.json"
 hash = "f7fb3429f4d8517c99c5f5c4add2368bbbe9aec1e2b4c0468e9c0a4972e70685"
 
 [[files]]
+file = "kubejs/data/femrot/recipes/block_crushing/pressing/gravel_path.json"
+hash = "dcfa7b3d8a288b061f75762ce3c1bae1a4d10d32a6ff4f3b0ae2004b1a810aaa"
+
+[[files]]
+file = "kubejs/data/femrot/recipes/block_crushing/pressing/mycelium_path.json"
+hash = "4fd8f99279c8d67b77f35c085c73ab45cea9fd99bb18d27b7e52474b77b40308"
+
+[[files]]
 file = "kubejs/data/femrot/recipes/block_crushing/pressing/paper.json"
 hash = "e2aead2c818affc2aabf3d6e05e8a02309a27d6de3934edbd7217b8563996586"
+
+[[files]]
+file = "kubejs/data/femrot/recipes/block_crushing/pressing/podzol_path.json"
+hash = "52591a2095d908f13fbddd866a010e10d4a963fe666fe5e4f0e28de51d0405cc"
+
+[[files]]
+file = "kubejs/data/femrot/recipes/block_crushing/pressing/sand_path.json"
+hash = "9029adbc3f83c0902145eecccaf38185fc137d69e26c4242a55709ac2c1c4427"
 
 [[files]]
 file = "kubejs/data/femrot/recipes/dripstone_dripping/grass_block.json"
@@ -246,7 +346,7 @@ hash = "a0af1c33c181c04360a9a09e8a35961ffd54befcf04d4a6a817e9edda43b962d"
 
 [[files]]
 file = "kubejs/server_scripts/data.js"
-hash = "520c721c044ae858b76dc4919fee4c29f843e361eaa82d45705ec85db6fa0012"
+hash = "7d7fb984ade570135cf240f291a42434ace96a3d86ad4bcfddf65ca55f1c06a9"
 
 [[files]]
 file = "kubejs/server_scripts/earlygame.js"
@@ -266,7 +366,7 @@ hash = "597fd812a8cd1b847017c28be0d26f348bf137e2228d17258adedd3c861be511"
 
 [[files]]
 file = "kubejs/server_scripts/remove.js"
-hash = "72b4cf2ccc638b3c31bdf5250bea3aed6e81ff72d11740051c09ad81e37b3e39"
+hash = "17fa9e07b88330041e131e51809779fc5065452a05359b2c72b16fce26a776ae"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -307,18 +407,13 @@ hash = "ba45971e28bf00e0dc80a43d0422c6be3ba67924af1dfbfd7d41b0c746dbdba4"
 metafile = true
 
 [[files]]
-file = "mods/architects-palette.pw.toml"
-hash = "358e31d076c2f366c766ef4d7c7573463cfeb398276210dafa28052ddf7aa14e"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "fa34a3117af7f8ed553ec563a7c90c1d6462184c7df5b837c831cb482c6ae582"
 metafile = true
 
 [[files]]
 file = "mods/beans-backpacks.pw.toml"
-hash = "4997e7e5f2f6a1b510107775a0da949432aa9309d521ad7eb0a6e78a1d760a8c"
+hash = "11d69405245ce9ee1f7707f56aa9d57dfb83d4caa0755682cab065ffe4f937de"
 metafile = true
 
 [[files]]
@@ -432,16 +527,6 @@ hash = "5d689fdd1fe74d0fbbe67af6ae186a49ac3efeb1d00341a8c7c6ab663829b5fd"
 metafile = true
 
 [[files]]
-file = "mods/emi.pw.toml"
-hash = "50cccc98a2eabd7abf8d7b0fbb506bbf408a04c40aba21370e6d30053cb0d9bd"
-metafile = true
-
-[[files]]
-file = "mods/emiffect.pw.toml"
-hash = "68d1babb9367d13f4ac375ea41cd4f1affaf12a5ff047386ab2c6aee83c9a023"
-metafile = true
-
-[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "d11fc9aac19a0a0af26884321b1b4205e55120e9583bb7323e9cbdb25925fbba"
 metafile = true
@@ -504,6 +589,11 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "01e047ce12403a657fc6669ff521a0d43cdc849aaccd217b7a055c58197cea99"
+metafile = true
+
+[[files]]
+file = "mods/herd-mentality.pw.toml"
+hash = "f77ffddd7dfba50bc2280463c1a1f16c94dbc0b92801ce677d190b1dfee1f507"
 metafile = true
 
 [[files]]
@@ -617,6 +707,11 @@ hash = "13d28cbb0b6e5d8b50ed246a37cd80422dfa2522e4520eded7f9618228227535"
 metafile = true
 
 [[files]]
+file = "mods/monobank.pw.toml"
+hash = "f4ea461a69911d312aadeb961d4510daba025da93b033f40bfc79823827bffd4"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "078a2b5eb7a4713f37930ad4cb33c587d2d43151295fa5617845624fe1a6ce67"
 metafile = true
@@ -711,6 +806,11 @@ hash = "45646ed86d783d82cc2b804466d4aaf06a67e14766928f17134d02558179f3f0"
 metafile = true
 
 [[files]]
+file = "mods/scholar.pw.toml"
+hash = "0f856a933694d725424aeb4f2edd9ad6f87b40054f82e03231d80144d6b81866"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "35905f57cdb21a2aaa26345f2fabe3137ee2db6ee3bb2149cea206611b11ef69"
 metafile = true
@@ -723,6 +823,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-boot-reloaded.pw.toml"
 hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
+metafile = true
+
+[[files]]
+file = "mods/soul-fire-d.pw.toml"
+hash = "bf68bda6a83f334681a414a9f48ceb1518cbe2cae5f88c80c78d37061a1b4829"
 metafile = true
 
 [[files]]
@@ -756,6 +861,11 @@ hash = "51d5ed928f1e8800a9dd42b44e0f8a4c547780dd763a91748812312b5d29f371"
 metafile = true
 
 [[files]]
+file = "mods/tag-tooltips.pw.toml"
+hash = "e72ed6f0b8e6130d711d7c6a3a4a2f36432e2bf3b44ecd4a3c4b2b968c589577"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "4190a2e1e26b1932eed9cc02461d09d12c55f340001dc3b46963e07ea9c1cf4b"
 metafile = true
@@ -763,6 +873,11 @@ metafile = true
 [[files]]
 file = "mods/tiny-item-animations.pw.toml"
 hash = "fbd1d93ab318f520b3c755c993d4e4ff24eff7ced81bf4327ae229b0c4d1a5db"
+metafile = true
+
+[[files]]
+file = "mods/tips.pw.toml"
+hash = "cae825b93bc039487dfd88ed809eae3d4711a9849852953ff1bd57dc6ac6993d"
 metafile = true
 
 [[files]]

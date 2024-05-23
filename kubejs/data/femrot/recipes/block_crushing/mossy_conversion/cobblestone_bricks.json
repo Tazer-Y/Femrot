@@ -6,9 +6,7 @@
     "offsetY": -1,
     "predicate": {
       "block": {
-        "blocks": [
-          "nomansland:cobblestone_bricks"
-        ]
+        "blocks": ["nomansland:cobblestone_bricks"]
       }
     }
   },

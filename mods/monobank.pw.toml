@@ -1,0 +1,13 @@
+name = "Monobank"
+filename = "monobank-1.20.1-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3bSjQuE3/versions/la4xAKzf/monobank-1.20.1-1.1.4.jar"
+hash-format = "sha1"
+hash = "b968e98626117017f7c63848fba276039a69370d"
+
+[update]
+[update.modrinth]
+mod-id = "3bSjQuE3"
+version = "la4xAKzf"

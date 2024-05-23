@@ -315,11 +315,39 @@ ServerEvents.recipes((event) => {
     "create:crafting/kinetics/speedometerfrom_conversion",
     "create:crafting/kinetics/speedometer",
 
-    // Bricks
+    // Stone Bricks
     "stone_bricks",
+    "stone_brick_stairs",
+    "stone_brick_slab",
+    "stone_brick_wall",
+
     "deepslate_bricks",
+    "deepslate_brick_stairs",
+    "deepslate_brick_slab",
+    "deepslate_brick_wall",
+
     "polished_blackstone_bricks",
+    "polished_blackstone_brick_stairs",
+    "polished_blackstone_brick_slab",
+    "polished_blackstone_brick_wall",
+
     "nomansland:building/faded_stone_bricks",
+
+    "spelunkery:rock_salt_bricks",
+    "spelunery:rock_salt_brick_stairs",
+    "spelunery:rock_salt_brick_slab",
+    "spelunery:rock_salt_brick_wall",
+
+    "mud_brick_stairs",
+    "mud_brick_slab",
+    "mud_brick_wall",
+
+    "stone_stairs",
+    "stone_slab",
+
+    "cobblestone_stairs",
+    "cobblestone_slab",
+    "cobblestone_wall",
 
     // Chiseled bricks
     "chiseled_stone_bricks",

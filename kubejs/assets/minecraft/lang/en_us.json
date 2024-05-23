@@ -1,5 +1,10 @@
 {
-    "block.minecraft.polished_blackstone_bricks": "Blackstone Bricks",
-    "item.minecraft.bowl": "Ceramic Bowl",
-    "block.minecraft.dirt_path": "Grass Path"
+  "block.minecraft.polished_blackstone_bricks": "Blackstone Bricks",
+  "block.minecraft.cracked_polished_blackstone_bricks": "Cracked Blackstone Bricks",
+  "block.minecraft.polished_blackstone_brick_stairs": "Blackstone Brick Stairs",
+  "block.minecraft.polished_blackstone_brick_slab": "Blackstone Brick Slab",
+  "block.minecraft.polished_blackstone_brick_wall": "Blackstone Brick Wall",
+  "item.minecraft.bowl": "Ceramic Bowl",
+  "block.minecraft.dirt_path": "Grass Path",
+  "block.minecraft.scaffolding": "Bamboo Scaffolding"
 }

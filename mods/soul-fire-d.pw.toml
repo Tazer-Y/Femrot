@@ -1,0 +1,13 @@
+name = "Soul Fire'd"
+filename = "soulfired-1.20.1-3.2.1.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/d6MhxwRo/versions/JksWBgvV/soulfired-1.20.1-3.2.1.0-forge.jar"
+hash-format = "sha1"
+hash = "cd77f3962cd0ce8ce744123009b757ea1a1f4191"
+
+[update]
+[update.modrinth]
+mod-id = "d6MhxwRo"
+version = "JksWBgvV"

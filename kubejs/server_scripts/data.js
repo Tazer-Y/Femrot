@@ -1,12 +1,10 @@
 ServerEvents.loaded((event) => {
-  const { server } = event;
-  if (server.persistentData.contains("firstload")) {
-    server.persistentData.putBoolean("firstload", true);
-    console.warn("First server load! Lag may be present for a few minutes.");
-  }
+  if (event.server.persistentData.gameRules) return;
+  event.server.gameRules.set("reducedDebugInfo", true);
 
-  server.runCommand("gamerule playersSleepingPercentage 25");
-  server.runCommand("gamerule reducedDebugInfo true");
-  server.runCommand("gamerule doPatrolSpawning false");
-  server.runCommand("gamerule doTraderSpawning false");
+  // TODO: decide on villagers & pillagers
+  // event.server.gameRules.set("doPatrolSpawning", false);
+  // event.server.gameRules.set("doTraderSpawning", false);
+
+  event.server.persistentData.gameRules = true;
 });

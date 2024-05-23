@@ -1,0 +1,124 @@
+
+["Configurable Falls Config"]
+
+	#Settings for Water  -  All Water Features uses the Vanilla Water Tag
+	["Configurable Falls Config"."Water Settings"]
+		#Required fall distance for entities to take fall damage in Water! Mod Default : 2.2
+		#Range: 0.0 ~ 256.0
+		"Water Fall Damage Required Fall Distance" = 3
+		#How much fall damage entities will take in 1 block deep water! (Affects Fluids From #configurable_falls:water Tag) Value explanation : 1.0 = 100% Fall Damage, 0.0 = 0% Fall Damage, 0.5 = 50% Fall Damage, 0.7 = 70% Fall Damage which is the same as a 30% Fall Damage Reduction
+		#Range: 0.0 ~ 1.0
+		"1 Block Deep Water Fall Damage Percentage" = 1.0
+		#How much fall damage entities will take in 2 block deep water! (Affects Fluids From #configurable_falls:water Tag) Value explanation : 1.0 = 100% Fall Damage, 0.0 = 0% Fall Damage, 0.5 = 50% Fall Damage, 0.7 = 70% Fall Damage which is the same as a 30% Fall Damage Reduction
+		#Range: 0.0 ~ 1.0
+		"2 Block Deep Water Fall Damage Percentages" = 0.5
+		#How much fall damage entities will take in 3 block deep water! (Affects Fluids From #configurable_falls:water Tag) Value explanation : 1.0 = 100% Fall Damage, 0.0 = 0% Fall Damage, 0.5 = 50% Fall Damage, 0.7 = 70% Fall Damage which is the same as a 30% Fall Damage Reduction
+		#Range: 0.0 ~ 1.0
+		"3 Block Deep Water Fall Damage Percentages" = 0.0
+		#How much fall damage entities will take in 4 block deep water! (Affects Fluids From #configurable_falls:water Tag) Value explanation : 1.0 = 100% Fall Damage, 0.0 = 0% Fall Damage, 0.5 = 50% Fall Damage, 0.7 = 70% Fall Damage which is the same as a 30% Fall Damage Reduction
+		#Range: 0.0 ~ 1.0
+		"4 Block Deep Water Fall Damage Percentages" = 0.0
+		#How much fall damage entities will take in 5 block deep water and more! (Affects Fluids From #configurable_falls:water Tag) Value explanation : 1.0 = 100% Fall Damage, 0.0 = 0% Fall Damage, 0.5 = 50% Fall Damage, 0.7 = 70% Fall Damage which is the same as a 30% Fall Damage Reduction
+		#Range: 0.0 ~ 1.0
+		"5 Block Deep Water Fall Damage Percentages" = 0.0
+
+	#Settings for Ice and Snow
+	["Configurable Falls Config"."Ice and Snow Settings"]
+		#Should Ice Break When fallen on? Mod Default : true (Affects Blocks From #configurable_falls:ice Tag)
+		"Ice Break On Fall" = true
+		#Required Fall Distance for ice to break on fall if Ice Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Ice Break Fall Distance" = 3
+		#Should Snow Break When fallen on? Mod Default : true (Affects Blocks From #configurable_falls:snow Tag)
+		"Snow Break On Fall" = true
+		#Required Fall Distance for Snow to break on fall if Snow Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Snow Break Fall Distance" = 3
+		#Should Snow drop snowballs when broken by entities falling on it? Mod Default : false  *Requires Snow Break On Fall to be set to true
+		"Snow Drops Snowballs When Broken By Entities Falling On It" = false
+
+	#Settings for Glass
+	["Configurable Falls Config"."Glass Settings"]
+		#Should Glass Break When fallen on? Mod Default : true (Affects Blocks From #forge:glass Tag on Forge/NeoForge) (Affects Blocks from #c:glass_blocks Tag on Fabric)
+		"Glass Break On Fall" = true
+		#Should Tinted Glass drop when broken by entities falling on it? Mod Default : true  *Requires Glass Break On Fall to be set to true *If any other mods adds glass drops, glass and stained glass will drop the drops added by that mod when its set to true
+		"Tinted Glass Drops Tinted Glass When Broken By Entities Falling On It" = true
+		#Required Fall Distance for glass to break on fall if Glass Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Glass Break Fall Distance" = 3
+		#Should Glass Pane Break When fallen on? Mod Default : true (Affects Blocks From #forge:glass_panes Tag on Forge/NeoForge) (Affects Blocks from #c:glass_panes Tag on Fabric)
+		"Glass Pane Break On Fall" = true
+		#Required Fall Distance for glass pane to break on fall if Glass Pane Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Glass Pane Break Fall Distance" = 3
+
+	#Settings for Grass
+	["Configurable Falls Config"."Grass Settings"]
+		#Should Grass Break When fallen on? Mod Default : true (Affects Blocks From #configurable_falls:grass Tag)
+		"Grass Break On Fall" = false
+		#Required Fall Distance for Grass to break on fall if Grass Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Grass Break Fall Distance" = 3
+		#Should Grass have a chance to drop seeds when broken by entities falling on it? Mod Default : true  *Requires Grass Break On Fall to be set to true
+		"Grass Has A Chance To Drop Seeds When Broken By Entities Falling On It" = true
+		#Should Grass turn to dirt when fallen on by an entity? Mod Default : true (Affects Blocks From #configurable_falls:grass_blocks Tag)
+		"Grass Turns To Dirt When Fallen On" = true
+		#Required Fall Distance for Grass to turn to Dirt if Grass Turns To Dirt When Fallen On = true  Mod Default : 2.9    Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Grass Turns To Dirt Fall Distance" = 3
+		#Should Tall Grass Break When fallen on? Mod Default : true (Affects Blocks From #configurable_falls:tall_grass Tag)
+		"Tall Grass Break On Fall" = false
+		#Required Fall Distance for Tall Grass to break on fall if Tall Grass Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Tall Grass Break Fall Distance" = 3
+		#Should Tall Grass have a chance to drop seeds when broken by entities falling on it? Mod Default : true  *Requires Tall Grass Break On Fall to be set to true
+		"Tall Grass Has A Chance To Drop Seeds When Broken By Entities Falling On It" = true
+
+	#Settings for Leaves
+	["Configurable Falls Config"."Leaves Settings"]
+		#Should Leaves Break When fallen on? Mod Default : false (Affects Blocks From #minecraft:leaves Tag)
+		"Leaves Break On Fall" = false
+		#Required Fall Distance for Leaves to break on fall if Leaves Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Leaves Break Fall Distance" = 3
+		#Should Leaves drop apples, saplings & sticks when broken by entities falling on it? Mod Default : false  *Requires Leaves Break On Fall to be set to true
+		"Leaves Drops Apples and Saplings and Sticks When Broken By Entities Falling On It" = false
+
+	#Settings for Flowers
+	["Configurable Falls Config"."Flowers Settings"]
+		#Should Small flowers Break When fallen on? Mod Default : true (Affects Blocks From #minecraft:small_flowers Tag)
+		"Small Flowers Break On Fall" = false
+		#Required Fall Distance for Small Flowers to break on fall if Small Flowers Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Small Flowers Break Fall Distance" = 3
+		#Should Small Flowers drop themselves when broken by entities falling on it? Mod Default : true  *Requires Small Flowers Break On Fall to be set to true
+		"Small Flowers Drop Themselves When Broken By Fall" = true
+		#Should Tall flowers Break When fallen on? Mod Default : true (Affects Blocks From #minecraft:tall_flowers Tag)
+		"Tall Flowers Break On Fall" = false
+		#Required Fall Distance for Tall Flowers to break on fall if Tall Flowers Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Tall Flowers Break Fall Distance" = 3
+		#Should Tall Flowers drop themselves when broken by entities falling on it? Mod Default : true  *Requires Tall Flowers Break On Fall to be set to true
+		"Tall Flowers Drop Themselves When Broken By Fall" = true
+
+	#Fall Damage Misc Settings
+	["Configurable Falls Config"."Misc Settings"]
+		#Required Fall Distance for Blocks that have the #fragile tag to break on fall, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Blocks With #fragile Required Fall Distance For Block To Break" = 3
+		#Should Blocks that have the #fragile tag drop their block drops Mod Default : true 
+		"Blocks With #fragile tag drop loot" = true
+		#How much fall damage entities will take when they fall on Hay Bales.  Vanilla : 0.2. 0.2 = 20% fall damage which is the same as a 80% fall damage reduction
+		#Range: 0.0 ~ 1.0
+		"Hay Bale Fall Damage Percentage" = 0.2
+		#Should Melon Explode Into Melon Slices When fallen on? Mod Default : true (Affects Blocks From #configurable_falls:melon_blocks Tag)
+		"Melon Explode Into Melon Slices On Fall" = true
+		#Required Fall Distance for melon to explode on fall if Melon Explode Into Melon Slices On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Melon Explode Into Melon Slices Fall Distance" = 3
+		#Should Suspicious Blocks Break When fallen on? Mod Default : true (Affects Blocks That Extend The BrushableBlock class)
+		"Suspicious Blocks Break On Fall" = true
+		#Required Fall Distance for Suspicious Blocks to break on fall if Suspicious Blocks Break On Fall = true, Jumping of 1 block = 2.1
+		#Range: 0.0 ~ 256.0
+		"Suspicious Blocks Break Fall Distance" = 3
+

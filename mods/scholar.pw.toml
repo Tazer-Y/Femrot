@@ -1,0 +1,13 @@
+name = "Scholar"
+filename = "scholar-1.20.1-1.0.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fX4dIQCo/versions/2QGwG4ex/scholar-1.20.1-1.0.0-forge.jar"
+hash-format = "sha1"
+hash = "2fb3112b979da6a5ba35bfdd45c46e956d14bcb3"
+
+[update]
+[update.modrinth]
+mod-id = "fX4dIQCo"
+version = "2QGwG4ex"
